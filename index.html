@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hedonist Social · Budapest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <div class="brand">
+        <div class="logo-mark">H</div>
+        <div class="brand-text">
+          <div class="brand-name">Hedonist Social</div>
+          <div class="brand-tagline">Events · House Parties · Hangouts</div>
+        </div>
+      </div>
+      <a class="primary-link" href="https://www.facebook.com/pages/Hedonist-Budapest/103888548802123/" target="_blank" rel="noopener noreferrer">
+        Hedonist Budapest on Facebook
+      </a>
+    </header>
+
+    <main class="main">
+      <section class="hero">
+        <div class="hero-text">
+          <h1>Find your people in Budapest nights.</h1>
+          <p>
+            Curated events around a&o Hostel and the 7th district. Join public parties, intimate house nights, or quick hangouts with people who want to experience the city together.
+          </p>
+          <div class="hero-actions">
+            <button class="hero-cta" data-scroll-target="#events-section">
+              Browse events
+            </button>
+            <a class="hero-secondary" href="mailto:gokhunerbek@hotmail.com?subject=Host%20an%20event%20on%20Hedonist%20Social">
+              Host an event
+            </a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="hero-pill">Live tonight</div>
+          <div class="hero-card-body">
+            <div class="hero-card-title">Ruin bar crawl</div>
+            <div class="hero-card-detail">Meeting at Deák Ferenc tér · 21:00</div>
+            <div class="hero-card-foot">
+              <span>Spots: 5–12 people</span>
+              <span>Mixed group</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="filters" id="events-section">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="event">Events</button>
+        <button class="filter-btn" data-filter="house">House Parties</button>
+        <button class="filter-btn" data-filter="hangout">Hangouts</button>
+      </section>
+
+      <section id="events-container" class="events"></section>
+
+      <section class="footer-cta">
+        <h2>Want your event or house party listed?</h2>
+        <p>
+          Send details via email or DM and we can plug it into this pilot app for Budapest. Perfect for events near a&o Hostel Budapest City and the surrounding districts.
+        </p>
+        <div class="footer-cta-actions">
+          <a class="hero-secondary" href="mailto:gokhunerbek@hotmail.com?subject=New%20event%20for%20Hedonist%20Social">
+            Email event details
+          </a>
+          <a class="hero-secondary" href="https://www.facebook.com/pages/Hedonist-Budapest/103888548802123/" target="_blank" rel="noopener noreferrer">
+            Message via Facebook
+          </a>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="join-modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="modal-close" class="modal-close" aria-label="Close">×</button>
+      <h2 id="modal-title" class="modal-title"></h2>
+      <p id="modal-description" class="modal-text">
+        To join this, use the link below. In a later version this can be replaced with Telegram, WhatsApp, or an in-app chat for each event.
+      </p>
+      <a id="modal-link" href="#" target="_blank" class="modal-link" rel="noopener noreferrer">Open link</a>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
