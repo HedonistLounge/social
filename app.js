@@ -19,7 +19,7 @@ const events = [
     location: "Budapest · a&o Hostel area",
     tags: ["Art", "Workshop", "Afternoon"],
     spots: "Limited seats",
-    joinLink: "mailto:gokhunerbek@hotmail.com?subject=Pottery%20Workshop%20reservation"
+    joinLink: "mailto:hedonistlounge@hotmail.com?subject=Pottery%20Workshop%20reservation"
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const events = [
     location: "Budapest · near Klauzál tér (exact address after join)",
     tags: ["Wine", "Chill", "Max 10"],
     spots: "6 spots left",
-    joinLink: "mailto:gokhunerbek@hotmail.com?subject=Join%20Wine%20and%20Vinyl%20Night"
+    joinLink: "mailto:hedonistlounge@hotmail.com?subject=Join%20Wine%20and%20Vinyl%20Night"
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const events = [
     location: "Budapest · Liberty Bridge area",
     tags: ["Daytime", "Chill", "New People"],
     spots: "2–4 people",
-    joinLink: "mailto:gokhunerbek@hotmail.com?subject=Join%20Coffee%20and%20Walk"
+    joinLink: "mailto:hedonistlounge@hotmail.com?subject=Join%20Coffee%20and%20Walk"
   },
   {
     id: 5,
@@ -63,7 +63,7 @@ const events = [
     location: "Budapest · near a&o Hostel",
     tags: ["Food", "Games", "Intimate"],
     spots: "8 spots total",
-    joinLink: "mailto:gokhunerbek@hotmail.com?subject=Join%20International%20Dinner"
+    joinLink: "mailto:hedonistlounge@hotmail.com?subject=Join%20International%20Dinner"
   },
   {
     id: 7,
@@ -74,7 +74,7 @@ const events = [
     location: "Budapest · district VII",
     tags: ["Comedy", "Drinks", "Night"],
     spots: "Open group",
-    joinLink: "mailto:gokhunerbek@hotmail.com?subject=Join%20Comedy%20Night"
+    joinLink: "mailto:hedonistlounge@hotmail.com?subject=Join%20Comedy%20Night"
   }
 ];
 
